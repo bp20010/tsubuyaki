@@ -33,7 +33,6 @@ public class ListView extends VerticalLayout {
                 button
             )
         );
-        
     }
 
 }
