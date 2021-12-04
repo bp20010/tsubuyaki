@@ -10,7 +10,6 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 
-
 @PageTitle("tsubuyaki")
 @Route(value = "empty")
 @RouteAlias(value = "")
