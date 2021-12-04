@@ -1,4 +1,4 @@
-package tsubuyaki.views.list;
+package tsubuyaki.views.empty;
 
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.html.Label;
@@ -13,9 +13,9 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 @PageTitle("tsubuyaki")
 @Route(value = "empty")
 @RouteAlias(value = "")
-public class ListView extends VerticalLayout {
+public class EmptyView extends VerticalLayout {
 
-    public ListView() {
+    public EmptyView() {
         VerticalLayout tsubuyaki= new VerticalLayout();
         TextField nameField=new TextField("");
         TextField contextField=new TextField("");
@@ -33,5 +33,4 @@ public class ListView extends VerticalLayout {
             )
         );
     }
-
 }
